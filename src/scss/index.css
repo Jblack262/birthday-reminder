@@ -1,3 +1,8 @@
+.container {
+  display: block;
+  margin: 0 auto;
+}
+
 .list {
   margin: 0 auto;
   padding: 0;
@@ -7,7 +12,12 @@
 }
 .list .user {
   display: flex;
-  margin: 1rem;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  background: steelblue;
+  background: linear-gradient(135deg, steelblue 0%, #3a6588 70%);
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 .list .user .pfp {
   width: 75px;
@@ -17,6 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid #222;
 }
 .list .user .pfp img {
   width: 8em;
@@ -33,21 +44,22 @@
 
 .btn {
   margin-left: auto;
-  margin-block: auto 1rem;
+  margin-top: auto;
   padding: 0.25rem 1rem;
   border: none;
   outline: none;
-  border-radius: 1rem;
+  border-radius: 0.33rem;
   cursor: pointer;
-}
-.btn:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #333;
+  color: #ddd;
 }
 
 .btnContainer {
   display: flex;
   justify-content: center;
+  margin: 0.5rem;
 }
 .btnContainer button {
   margin: 0 1rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=index.css.map */

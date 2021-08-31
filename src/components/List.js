@@ -17,7 +17,7 @@ function List(props) {
     setPeople([]);
   }
   return (
-    <div>
+    <div className="container">
       <ul className="list">
         {people.map((person) => {
           const {id, name, age, image} = person;
